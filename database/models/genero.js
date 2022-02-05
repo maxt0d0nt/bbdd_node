@@ -10,7 +10,7 @@ module.exports = function(sequelize, dataType) {
             autoIncrement: true
         },
 
-        name: {
+        genderName: {
             type: dataType.STRING
         }
     };
